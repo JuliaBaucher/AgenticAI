@@ -1,0 +1,12 @@
+Take the role of an experienced tech writer and AI architect.
+Your task is to provide a detailed description of this framework as a combination of one agent with tools (existing framework described in the initial prompt) and template-based orchestration with AWS Step Functions and Lambda workers. Describe that both are available from Q CLI via kiro-cli chat --agent mcps. Describe how agenticAI_mcp is integrated in the Q CLI. (Provide a comparison between the current implementation with local MCP and the implementation with remote MCP accessible via API).
+
+Do not include all code of the Lambda functions, but describe what the workers do, what the Step Function does, IAM roles, Secrets Manager, etc. Explain how this framework is aligned with orchestration principles: execution authorities, boundaries, shared memory and state, error handling, policies, permissions, observability and auditability, human in the loop, compliance.
+
+Include all the required details that allow understanding how it is designed, what it does, and so on.
+
+Describe the scalability of this framework, where a new flow will be created with a new Step Function and reuse the same workers. The new flow will use an Amazon Bedrock agent for email triage (instead of just triage based on the word requirements in the email). In this case, explain how boundaries will be managed for this Bedrock agent (via a prompt and others).
+
+Return the output in one editing block that I can copy-paste in one click into GitHub README.
+
+DO NOT SPLIT THE OUTPUT INTO SEVERAL CHAT WINDOWS like with bash, code, and so on. All returned output has to be within one single chat window. Use GitHub README markup (line breaks, spaces, backticks to format text within this window).
