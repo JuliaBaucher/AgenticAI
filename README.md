@@ -1,4 +1,17 @@
-# AgenticAI Hybrid Orchestration Framework  
+# AgenticAI & n8n Hybrid Orchestration Framework (n8n  
+
+
+
+https://github.com/user-attachments/assets/62e970e1-c1d2-461f-9edd-a1c1f9c94c1d
+
+
+
+
+
+
+
+
+
 **Agent with Tools + Template-Based AWS Orchestration**  
 Accessible via a single entry point:  
 
