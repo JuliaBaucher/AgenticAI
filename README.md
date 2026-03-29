@@ -1,4 +1,4 @@
-# AgenticAI & n8n Hybrid Orchestration Framework (n8n  
+# n8n powered agentic orchestration framework 
 
 
 
