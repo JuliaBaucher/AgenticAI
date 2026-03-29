@@ -1,4 +1,4 @@
-# n8n powered agentic orchestration framework 
+# N8N Powered Agentic Orchestration Framework 
 
 
 
